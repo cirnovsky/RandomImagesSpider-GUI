@@ -99,7 +99,7 @@ void ShowImageAtXY(int imageID, int x, int y) {
 int main() {
 	srand(time(0));
 	HWND hwnd = FindWindow("ConsoleWindowClass", NULL);
-//	if (hwnd) ShowWindow(hwnd, SW_HIDE);
+	if (hwnd) ShowWindow(hwnd, SW_HIDE);
 	initgraph(GRAPH_WIDTH, GRAPH_HEIGHT, 0);
 	setcaption("Random images spider by BoringHacker ");
 	int beginID = 0, imagesNumber = 0, chooseDownloader = 0, chooseModel = 0;
