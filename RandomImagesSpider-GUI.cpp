@@ -136,7 +136,7 @@ int main() {
 				URLImageDownloadToFileWithVBS(URL_TABLE[rand() % URLTABLE_SIZE], i);
 				break;
 			case 3:
-				URLImageDownloadToFileWithPowerShellExec(URL_TABLE[3], i);
+				URLImageDownloadToFileWithPowerShellExec(URL_TABLE[rand() % URLTABLE_SIZE], i);
 				break;
 			case 4:
 				URLImageDownloadToFileWithPowerShellWGet(URL_TABLE[rand() % URLTABLE_SIZE], i);
