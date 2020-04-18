@@ -5,3 +5,7 @@
 以后，等我从Dev-Cpp升级了，我就换成URLDownloadToFile……
 
 ![](https://cdn.jsdelivr.net/gh/BoringHacker/cdn/emojis/majsoul/maj-52.png)
+
+------------------
+
+我有VS了！我用URLDownloadToFile了！
